@@ -1,0 +1,151 @@
+{
+  "createdByNickname": null,
+  "eventEditorName": null,
+  "hasStandings": true,
+  "hasCupTree": false,
+  "hasIncidents": false,
+  "hasHighlights": false,
+  "hasHighlightsStream": false,
+  "game": {
+    "sport": {
+      "id": 1,
+      "name": "Football",
+      "slug": "football"
+    },
+    "rows": 1,
+    "tournaments": [
+      {
+        "tournament": {
+          "name": "Premier League",
+          "id": 1,
+          "uniqueId": 17,
+          "uniqueName": "Premier League",
+          "hasEventPlayerStatistics": true
+        },
+        "category": {
+          "name": "England",
+          "priority": 10,
+          "id": 1,
+          "flag": "england"
+        },
+        "season": {
+          "name": "Premier League 23/24",
+          "year": "23/24",
+          "id": 52186
+        },
+        "hasEventPlayerStatistics": true,
+        "hasEventPlayerHeatMap": null,
+        "hasBoxScore": null,
+        "displayInverseHomeAwayTeams": false,
+        "events": [
+          {
+            "roundInfo": {
+              
+            },
+            "customId": "Psxb",
+            "status": {
+              "code": 0,
+              "type": "notstarted"
+            },
+            "venue": {
+              "city": {
+                "name": "Birmingham"
+              },
+              "stadium": {
+                "name": "Villa Park",
+                "capacity": 42682
+              },
+              "id": 815,
+              "hasImage": false,
+              "country": {
+                "name": "England",
+                "flag": "england"
+              }
+            },
+            "homeTeam": {
+              "name": "Aston Villa",
+              "slug": "aston-villa",
+              "shortName": "Aston Villa",
+              "gender": "M",
+              "nameCode": "AVL",
+              "disabled": false,
+              "national": false,
+              "id": 40,
+              "subTeams": [
+                
+              ],
+              "teamColors": {
+                "primary": "#670e36",
+                "secondary": "#94bee5",
+                "text": "#94bee5"
+              }
+            },
+            "awayTeam": {
+              "name": "Luton Town",
+              "slug": "luton-town",
+              "shortName": "Luton",
+              "gender": "M",
+              "nameCode": "LUT",
+              "disabled": false,
+              "national": false,
+              "id": 72,
+              "subTeams": [
+                
+              ],
+              "teamColors": {
+                "primary": "#ff3300",
+                "secondary": "#000033",
+                "text": "#000033"
+              }
+            },
+            "homeScore": {
+              
+            },
+            "awayScore": {
+              
+            },
+            "time": {
+              
+            },
+            "changes": {
+              "changeTimestamp": 0
+            },
+            "hasHighlights": false,
+            "hasHighlightsStream": false,
+            "hasGlobalHighlights": false,
+            "id": 11352670,
+            "cardsCode": "00",
+            "defaultPeriodCount": 2,
+            "defaultPeriodLength": 45,
+            "statusDescription": "-",
+            "startTimestamp": 1698588000,
+            "webUrl": "/luton-town-aston-villa/Psxb#11352670",
+            "fbPostId": "1611172895820303_1616781785259414",
+            "hasTime": false,
+            "resultOnly": false,
+            "showEventNote": false,
+            "bet365Links": {
+              "deeplink": "http://link.sofascore.com/mobile-app-streaming",
+              "joinlink": "https://mobile.bet365.com/?lng=1&ot=2&affiliate=365_431938#type=Members;key=join;ip=0;lng=1"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "vote": {
+    "vote1": 555,
+    "vote2": 99,
+    "voteX": 131,
+    "vote1Percentage": "70.70",
+    "voteXPercentage": "16.69",
+    "vote2Percentage": "12.61"
+  },
+  "hasStatistics": false,
+  "hasComments": false,
+  "hasInnings": false,
+  "hasLineups": false,
+  "hasOdds": true,
+  "hasTvChannels": true,
+  "hasLineupsImage": false
+}

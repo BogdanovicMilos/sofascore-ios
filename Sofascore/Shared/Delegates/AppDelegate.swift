@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Sofascore
 //
-//  Created by Milos Bogdanovic on 15.10.23..
+//  Created by Milos Bogdanovic on 10/15/23.
 //
 
 import UIKit
@@ -10,11 +10,13 @@ import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+                
+//        let path = Bundle.main.path(forResource: "event_details_response_1", ofType: "json")!
+//        let data = try! Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+//        let decodedData = try? JSONDecoder().decode(EventDetailsResponse.self, from: data)    
         return true
     }
 

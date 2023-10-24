@@ -1,0 +1,228 @@
+{
+  "createdByNickname": null,
+  "eventEditorName": null,
+  "hasStandings": true,
+  "hasCupTree": false,
+  "hasIncidents": true,
+  "hasHighlights": true,
+  "hasHighlightsStream": false,
+  "game": {
+    "sport": {
+      "id": 1,
+      "name": "Football",
+      "slug": "football"
+    },
+    "rows": 1,
+    "tournaments": [
+      {
+        "tournament": {
+          "name": "Premier League",
+          "id": 1,
+          "uniqueId": 17,
+          "uniqueName": "Premier League",
+          "hasEventPlayerStatistics": true
+        },
+        "category": {
+          "name": "England",
+          "priority": 10,
+          "id": 1,
+          "flag": "england"
+        },
+        "season": {
+          "name": "Premier League 23/24",
+          "year": "23/24",
+          "id": 52186
+        },
+        "hasEventPlayerStatistics": true,
+        "hasEventPlayerHeatMap": null,
+        "hasBoxScore": null,
+        "displayInverseHomeAwayTeams": false,
+        "events": [
+          {
+            "roundInfo": {
+              "round": 8
+            },
+            "customId": "rsR",
+            "status": {
+              "code": 100,
+              "type": "finished"
+            },
+            "winnerCode": 1,
+            "attendance": 60233,
+            "venue": {
+              "city": {
+                "name": "London"
+              },
+              "stadium": {
+                "name": "Emirates Stadium",
+                "capacity": 60260
+              },
+              "id": 624,
+              "hasImage": false,
+              "country": {
+                "name": "England",
+                "flag": "england"
+              }
+            },
+            "referee": {
+              "id": 65702,
+              "name": "Michael Oliver",
+              "yellowCardsPerGame": "3.64",
+              "redCardsPerGame": "0.14",
+              "country": {
+                "name": "England",
+                "flag": "england"
+              }
+            },
+            "homeTeam": {
+              "name": "Arsenal",
+              "slug": "arsenal",
+              "shortName": "Arsenal",
+              "gender": "M",
+              "nameCode": "ARS",
+              "disabled": false,
+              "national": false,
+              "id": 42,
+              "subTeams": [
+                
+              ],
+              "teamColors": {
+                "primary": "#cc0000",
+                "secondary": "#ffffff",
+                "text": "#ffffff"
+              }
+            },
+            "awayTeam": {
+              "name": "Manchester City",
+              "slug": "manchester-city",
+              "shortName": "Man City",
+              "gender": "M",
+              "nameCode": "MCI",
+              "disabled": false,
+              "national": false,
+              "id": 17,
+              "subTeams": [
+                
+              ],
+              "teamColors": {
+                "primary": "#66ccff",
+                "secondary": "#ffffff",
+                "text": "#ffffff"
+              }
+            },
+            "homeScore": {
+              "current": 1,
+              "display": 1,
+              "period1": 0,
+              "period2": 1,
+              "normaltime": 1
+            },
+            "awayScore": {
+              "current": 0,
+              "display": 0,
+              "period1": 0,
+              "period2": 0,
+              "normaltime": 0
+            },
+            "time": {
+              
+            },
+            "changes": {
+              "changes": [
+                "status.code",
+                "status.description",
+                "status.type",
+                "homeScore.period2",
+                "homeScore.normaltime",
+                "awayScore.period2",
+                "awayScore.normaltime",
+                "time.currentPeriodStart"
+              ],
+              "changeTimestamp": 1696785848
+            },
+            "hasHighlights": true,
+            "hasHighlightsStream": false,
+            "hasGlobalHighlights": true,
+            "hasEventPlayerStatistics": true,
+            "hasEventPlayerHeatMap": true,
+            "bestHomeTeamPlayer": {
+              "player": {
+                "id": 846036,
+                "name": "Benjamin White",
+                "shortName": "B. White"
+              },
+              "value": "7.7"
+            },
+            "bestAwayTeamPlayer": {
+              "player": {
+                "id": 859765,
+                "name": "Phil Foden",
+                "shortName": "P. Foden"
+              },
+              "value": "7.2"
+            },
+            "id": 11352647,
+            "cardsCode": "00",
+            "defaultPeriodCount": 2,
+            "defaultPeriodLength": 45,
+            "statusDescription": "FT",
+            "hasLiveForm": true,
+            "startTimestamp": 1696779000,
+            "endTimestamp": 1696785845,
+            "webUrl": "/arsenal-manchester-city/rsR#11352647",
+            "fbPostId": "1611172895820303_1616781785259414",
+            "hasTime": false,
+            "resultOnly": false,
+            "showEventNote": false,
+            "teamsForm": {
+              "homeTeam": {
+                "avgRating": "7.11",
+                "position": "4",
+                "points": "17",
+                "form": [
+                  "D",
+                  "W",
+                  "W",
+                  "D",
+                  "W"
+                ]
+              },
+              "awayTeam": {
+                "avgRating": "7.33",
+                "position": "2",
+                "points": "18",
+                "form": [
+                  "W",
+                  "W",
+                  "W",
+                  "W",
+                  "L"
+                ]
+              },
+              "pointsLabel": "Pts"
+            },
+            "bet365Links": {
+              "deeplink": "http://link.sofascore.com/mobile-app-streaming",
+              "joinlink": "https://mobile.bet365.com/?lng=1&ot=2&affiliate=365_431938#type=Members;key=join;ip=0;lng=1"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "vote": {
+    "vote1": 35527,
+    "vote2": 48865,
+    "voteX": 17926,
+    "vote1Percentage": "34.72",
+    "voteXPercentage": "17.52",
+    "vote2Percentage": "47.76"
+  },
+  "hasStatistics": true,
+  "hasComments": false,
+  "hasInnings": false,
+  "hasLineups": true,
+  "hasOdds": true,
+  "hasTvChannels": true,
+  "hasLineupsImage": true
+}

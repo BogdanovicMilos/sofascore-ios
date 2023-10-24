@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5BA1D335-4842-4643-B755-DD42BB165D33"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B56E2BF1-A2B4-47C6-9FAC-EB0D555F223C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Controllers/Event List/EventListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "EventListViewModel"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A97F703-3CD4-4512-9721-83EE3B1A99F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Shared/Stores/Events/EventsRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "saveEvent(event:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8A97F703-3CD4-4512-9721-83EE3B1A99F5 - 4c678f0fb6c974fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.saveEvent(event: Sofascore.EventDetails) -&gt; Swift.Bool"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "888">
+               </Location>
+               <Location
+                  uuid = "8A97F703-3CD4-4512-9721-83EE3B1A99F5 - 4c678f0fb6c97779"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.saveEvent(event: Sofascore.EventDetails) -&gt; Swift.Bool"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "888">
+               </Location>
+               <Location
+                  uuid = "8A97F703-3CD4-4512-9721-83EE3B1A99F5 - 4c678f0fb6c97378"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.saveEvent(event: Sofascore.EventDetails) -&gt; Swift.Bool"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "2580">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C34D87F-915F-47D9-9FE2-B295A3124666"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Shared/Stores/Events/EventsStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "EventStore"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8938F17-6D3C-41B2-801A-E1C6044F4DD3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Shared/Stores/Events/EventsRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "fetchEventId(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F8938F17-6D3C-41B2-801A-E1C6044F4DD3 - 379619d0f181fdb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.fetchEventId(id: Swift.Int) -&gt; Swift.Optional&lt;Sofascore.EventDetails&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "2052">
+               </Location>
+               <Location
+                  uuid = "F8938F17-6D3C-41B2-801A-E1C6044F4DD3 - 379619d0f181fdb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.fetchEventId(id: Swift.Int) -&gt; Swift.Optional&lt;Sofascore.EventDetails&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "2012">
+               </Location>
+               <Location
+                  uuid = "F8938F17-6D3C-41B2-801A-E1C6044F4DD3 - 379619d0f181f19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.fetchEventId(id: Swift.Int) -&gt; Swift.Optional&lt;Sofascore.EventDetails&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "2012">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "067724A3-BE19-47DD-A81C-F2E18C2D6C2D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Controllers/Event List/EventListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "EventListViewModel"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "269E7619-222C-4BE4-9E62-0EB58A30027E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Shared/Stores/Events/EventsRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "fetchEventId(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "269E7619-222C-4BE4-9E62-0EB58A30027E - 379619d0f181e36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.fetchEventId(id: Swift.Int) -&gt; Swift.Optional&lt;Sofascore.EventDetails&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1980">
+               </Location>
+               <Location
+                  uuid = "269E7619-222C-4BE4-9E62-0EB58A30027E - 379619d0f181e11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.fetchEventId(id: Swift.Int) -&gt; Swift.Optional&lt;Sofascore.EventDetails&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1920">
+               </Location>
+               <Location
+                  uuid = "269E7619-222C-4BE4-9E62-0EB58A30027E - 379619d0f181e57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.fetchEventId(id: Swift.Int) -&gt; Swift.Optional&lt;Sofascore.EventDetails&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "1920">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9AF08F6-906F-4496-9A38-05B03400580A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Shared/Stores/Events/EventsRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "fetchEventId(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E9AF08F6-906F-4496-9A38-05B03400580A - 379619d0f181dab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.fetchEventId(id: Swift.Int) -&gt; Swift.Optional&lt;Sofascore.EventDetails&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "964">
+               </Location>
+               <Location
+                  uuid = "E9AF08F6-906F-4496-9A38-05B03400580A - 379619d0f181dab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.fetchEventId(id: Swift.Int) -&gt; Swift.Optional&lt;Sofascore.EventDetails&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "E9AF08F6-906F-4496-9A38-05B03400580A - 379619d0f181de9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.fetchEventId(id: Swift.Int) -&gt; Swift.Optional&lt;Sofascore.EventDetails&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D76E8A9-7570-44A3-A69D-8C0C9BAED0AE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Shared/Stores/Events/EventsRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "saveEvent(event:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1D76E8A9-7570-44A3-A69D-8C0C9BAED0AE - 4c678f0fb6c971c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.saveEvent(event: Sofascore.EventDetails) -&gt; Swift.Bool"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "2284">
+               </Location>
+               <Location
+                  uuid = "1D76E8A9-7570-44A3-A69D-8C0C9BAED0AE - 4c678f0fb6c971c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.saveEvent(event: Sofascore.EventDetails) -&gt; Swift.Bool"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "2184">
+               </Location>
+               <Location
+                  uuid = "1D76E8A9-7570-44A3-A69D-8C0C9BAED0AE - 4c678f0fb6c971a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.saveEvent(event: Sofascore.EventDetails) -&gt; Swift.Bool"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "2184">
+               </Location>
+               <Location
+                  uuid = "1D76E8A9-7570-44A3-A69D-8C0C9BAED0AE - 4c678f0fb6c97378"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.saveEvent(event: Sofascore.EventDetails) -&gt; Swift.Bool"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "2580">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AEF2311-1BF4-4906-86A0-819E043A5980"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Shared/Stores/Events/EventsRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "saveEvent(event:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8AEF2311-1BF4-4906-86A0-819E043A5980 - 4e4f63d338275adc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.deleteIds() -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "8AEF2311-1BF4-4906-86A0-819E043A5980 - 4c678f0fb6c9712b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.saveEvent(event: Sofascore.EventDetails) -&gt; Swift.Bool"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "2236">
+               </Location>
+               <Location
+                  uuid = "8AEF2311-1BF4-4906-86A0-819E043A5980 - 4c678f0fb6c9710c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.saveEvent(event: Sofascore.EventDetails) -&gt; Swift.Bool"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "2236">
+               </Location>
+               <Location
+                  uuid = "8AEF2311-1BF4-4906-86A0-819E043A5980 - 4c678f0fb6c9731b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.saveEvent(event: Sofascore.EventDetails) -&gt; Swift.Bool"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "3096">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E62F4620-B4D9-42D6-A1CC-B9887B1D8C8F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Shared/Stores/Events/EventsStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "fetchEventsIds()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E62F4620-B4D9-42D6-A1CC-B9887B1D8C8F - 66185c1772891022"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.AsyncThrowingStream&lt;Swift.Array&lt;Swift.Int&gt;, Swift.Error&gt;.Continuation) -&gt; () in Sofascore.EventStore.fetchEventsIds() -&gt; Swift.AsyncThrowingStream&lt;Swift.Array&lt;Swift.Int&gt;, Swift.Error&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "E62F4620-B4D9-42D6-A1CC-B9887B1D8C8F - 5bd8d7b2ae24ebe1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in closure #1 (Swift.AsyncThrowingStream&lt;Swift.Array&lt;Swift.Int&gt;, Swift.Error&gt;.Continuation) -&gt; () in Sofascore.EventStore.fetchEventsIds() -&gt; Swift.AsyncThrowingStream&lt;Swift.Array&lt;Swift.Int&gt;, Swift.Error&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "E62F4620-B4D9-42D6-A1CC-B9887B1D8C8F - 3c61f1acab241e48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 (Swift.AsyncThrowingStream&lt;Swift.Array&lt;Swift.Int&gt;, Swift.Error&gt;.Continuation) -&gt; () in Sofascore.EventStore.fetchEventsIds() -&gt; Swift.AsyncThrowingStream&lt;Swift.Array&lt;Swift.Int&gt;, Swift.Error&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "E62F4620-B4D9-42D6-A1CC-B9887B1D8C8F - 66185c1772891022"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.AsyncThrowingStream&lt;Swift.Array&lt;Swift.Int&gt;, Swift.Error&gt;.Continuation) -&gt; () in Sofascore.EventStore.fetchEventsIds() -&gt; Swift.AsyncThrowingStream&lt;Swift.Array&lt;Swift.Int&gt;, Swift.Error&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "E62F4620-B4D9-42D6-A1CC-B9887B1D8C8F - 66185c1772891022"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.AsyncThrowingStream&lt;Swift.Array&lt;Swift.Int&gt;, Swift.Error&gt;.Continuation) -&gt; () in Sofascore.EventStore.fetchEventsIds() -&gt; Swift.AsyncThrowingStream&lt;Swift.Array&lt;Swift.Int&gt;, Swift.Error&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "404">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53142645-2D86-44A0-B6F7-85D77D18DE0E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Controllers/Event List/EventListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "fetchEventIds()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "53142645-2D86-44A0-B6F7-85D77D18DE0E - 540575bf07f168bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEventIds() -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "53142645-2D86-44A0-B6F7-85D77D18DE0E - 8870fbe2ff379698"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEventIds() -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "53142645-2D86-44A0-B6F7-85D77D18DE0E - 540575bf07f1689d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEventIds() -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83D10FA9-F738-4D5A-85B6-392F8DAD8E4D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Shared/Stores/Events/EventsStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "EventStore"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7D8C919-79DA-4C8B-B829-D23133CB7A5B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Controllers/Event List/EventListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "fetchEvents(ids:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C7D8C919-79DA-4C8B-B829-D23133CB7A5B - b9d980d4592c7461"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEvents(ids: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "C7D8C919-79DA-4C8B-B829-D23133CB7A5B - 1cb0f463ae1bda41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEvents(ids: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "C7D8C919-79DA-4C8B-B829-D23133CB7A5B - b9d980d4592c7442"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEvents(ids: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "C7D8C919-79DA-4C8B-B829-D23133CB7A5B - 1cb0f463ae1bda20"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEvents(ids: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "C7D8C919-79DA-4C8B-B829-D23133CB7A5B - b9d980d4592c7423"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEvents(ids: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18AA5A02-0B4C-4B96-AE8F-991B181A0F1F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Shared/Stores/Events/EventsStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "fetchEvents(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "18AA5A02-0B4C-4B96-AE8F-991B181A0F1F - b24ea51e9e1f29d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.AsyncThrowingStream&lt;Swift.Array&lt;Sofascore.EventDetails&gt;, Swift.Error&gt;.Continuation) -&gt; () in Sofascore.EventStore.fetchEvents(id: Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.AsyncThrowingStream&lt;Swift.Array&lt;Sofascore.EventDetails&gt;, Swift.Error&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "18AA5A02-0B4C-4B96-AE8F-991B181A0F1F - b24ea51e9e1f285a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.AsyncThrowingStream&lt;Swift.Array&lt;Sofascore.EventDetails&gt;, Swift.Error&gt;.Continuation) -&gt; () in Sofascore.EventStore.fetchEvents(id: Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.AsyncThrowingStream&lt;Swift.Array&lt;Sofascore.EventDetails&gt;, Swift.Error&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40C5175F-7F68-40D5-AF09-3A79361C9186"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Shared/Stores/Events/EventsStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "fetchEvents(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "40C5175F-7F68-40D5-AF09-3A79361C9186 - 8c77d8b9a90db041"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 (Swift.AsyncThrowingStream&lt;Swift.Array&lt;Sofascore.EventDetails&gt;, Swift.Error&gt;.Continuation) -&gt; () in Sofascore.EventStore.fetchEvents(id: Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.AsyncThrowingStream&lt;Swift.Array&lt;Sofascore.EventDetails&gt;, Swift.Error&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "40C5175F-7F68-40D5-AF09-3A79361C9186 - 8c77d8b9a90db0dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 (Swift.AsyncThrowingStream&lt;Swift.Array&lt;Sofascore.EventDetails&gt;, Swift.Error&gt;.Continuation) -&gt; () in Sofascore.EventStore.fetchEvents(id: Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.AsyncThrowingStream&lt;Swift.Array&lt;Sofascore.EventDetails&gt;, Swift.Error&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "40C5175F-7F68-40D5-AF09-3A79361C9186 - 8c77d8b9a90db0dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 (Swift.AsyncThrowingStream&lt;Swift.Array&lt;Sofascore.EventDetails&gt;, Swift.Error&gt;.Continuation) -&gt; () in Sofascore.EventStore.fetchEvents(id: Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.AsyncThrowingStream&lt;Swift.Array&lt;Sofascore.EventDetails&gt;, Swift.Error&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12E25781-0E59-4BB7-863B-3E32359A1666"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Controllers/Event List/EventListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "fetchEvents(ids:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "12E25781-0E59-4BB7-863B-3E32359A1666 - 1cb0f463ae1bda83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEvents(ids: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "12E25781-0E59-4BB7-863B-3E32359A1666 - b9d980d4592c7480"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEvents(ids: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "12E25781-0E59-4BB7-863B-3E32359A1666 - 1cb0f463ae1bdadc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEvents(ids: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "716">
+               </Location>
+               <Location
+                  uuid = "12E25781-0E59-4BB7-863B-3E32359A1666 - 1cb0f463ae1bda83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEvents(ids: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "780">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB71B282-1EDA-4FE8-81A5-F0B2BB4B31B6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Controllers/Event List/EventListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "fetchEvents(ids:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FB71B282-1EDA-4FE8-81A5-F0B2BB4B31B6 - 1cb0f463ae1bdd9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEvents(ids: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  uuid = "FB71B282-1EDA-4FE8-81A5-F0B2BB4B31B6 - 1cb0f463ae1bdd9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEvents(ids: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "FB71B282-1EDA-4FE8-81A5-F0B2BB4B31B6 - 1cb0f463ae1bdd9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEvents(ids: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C988F76-867E-43EC-8902-94FD3D10F640"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Controllers/Event List/EventListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "fetchEventIds()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9C988F76-867E-43EC-8902-94FD3D10F640 - 8870fbe2ff3795ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEventIds() -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "9C988F76-867E-43EC-8902-94FD3D10F640 - 8870fbe2ff3795ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Sofascore.EventListViewModel.fetchEventIds() -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Controllers/Event%20List/EventListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F2B25E3-AAEF-44FB-ADF1-B0C972F39829"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Shared/Stores/Events/EventsRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
+            landmarkName = "deleteEvents()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0F2B25E3-AAEF-44FB-ADF1-B0C972F39829 - 15b6c8d2ef11f61c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.deleteEvents() -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "243"
+                  endingLineNumber = "243"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "0F2B25E3-AAEF-44FB-ADF1-B0C972F39829 - 15b6c8d2ef11f61c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sofascore.DefaultEventsRepository.deleteEvents() -&gt; ()"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "243"
+                  endingLineNumber = "243"
+                  offsetFromSymbolStart = "484">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CCAB7DD-173F-4F7B-AECE-92C872E4EE29"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Shared/Stores/Events/EventsStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "fetchEventsIds()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F4C264E-30B9-4026-9EFB-063600D2C591"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sofascore/Shared/Stores/Events/EventsStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "fetchEvents(id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8F4C264E-30B9-4026-9EFB-063600D2C591 - 8c77d8b9a90db28b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 (Swift.AsyncThrowingStream&lt;Swift.Array&lt;Sofascore.EventDetails&gt;, Swift.Error&gt;.Continuation) -&gt; () in Sofascore.EventStore.fetchEvents(id: Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.AsyncThrowingStream&lt;Swift.Array&lt;Sofascore.EventDetails&gt;, Swift.Error&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "8F4C264E-30B9-4026-9EFB-063600D2C591 - 4a389b9071ecf2f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 (Swift.AsyncThrowingStream&lt;Swift.Array&lt;Sofascore.EventDetails&gt;, Swift.Error&gt;.Continuation) -&gt; () in Sofascore.EventStore.fetchEvents(id: Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.AsyncThrowingStream&lt;Swift.Array&lt;Sofascore.EventDetails&gt;, Swift.Error&gt;"
+                  moduleName = "Sofascore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/milosbogdanovic/Developer/iOS/Sofascore/Sofascore/Shared/Stores/Events/EventsStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "360">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -7,16 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		475F1AAD2ADC2FE0001DCF2F /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475F1AAB2ADC2FE0001DCF2F /* NetworkClient.swift */; };
+		475F1AAE2ADC2FE0001DCF2F /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475F1AAC2ADC2FE0001DCF2F /* NetworkRequest.swift */; };
+		475F1AB02ADC324D001DCF2F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475F1AAF2ADC324D001DCF2F /* Constants.swift */; };
+		475F1AB22ADC333D001DCF2F /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475F1AB12ADC333D001DCF2F /* APIRequest.swift */; };
+		475F1ABF2ADC4C2C001DCF2F /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475F1ABE2ADC4C2C001DCF2F /* MulticastDelegate.swift */; };
+		475F1ACB2ADC59DF001DCF2F /* event_details_response_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 475F1AC92ADC59DF001DCF2F /* event_details_response_1.json */; };
+		475F1ACC2ADC59DF001DCF2F /* event_details_response_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 475F1ACA2ADC59DF001DCF2F /* event_details_response_2.json */; };
+		475F1ACE2ADC5F6C001DCF2F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475F1ACD2ADC5F6C001DCF2F /* MainTabBarViewController.swift */; };
+		475F1AD32ADC7B0C001DCF2F /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475F1AD22ADC7B0B001DCF2F /* Tournament.swift */; };
+		475F1AD82ADD4AB0001DCF2F /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475F1AD72ADD4AB0001DCF2F /* EventTableViewCell.swift */; };
+		475F1ADE2ADDC6EB001DCF2F /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475F1ADD2ADDC6EB001DCF2F /* EventDetailsView.swift */; };
+		475F1B212ADEFB6A001DCF2F /* Sofascore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 475F1B1F2ADEFB6A001DCF2F /* Sofascore.xcdatamodeld */; };
+		475F1B292ADF0241001DCF2F /* EventId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475F1B282ADF0241001DCF2F /* EventId.swift */; };
+		475F1B2C2AE06740001DCF2F /* EventDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475F1B2B2AE06740001DCF2F /* EventDetailsResponse.swift */; };
+		475F1B2F2AE067B2001DCF2F /* EventDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475F1B2E2AE067B2001DCF2F /* EventDetails.swift */; };
 		4788BA652ADBE7B500B98FF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BA642ADBE7B500B98FF0 /* AppDelegate.swift */; };
 		4788BA672ADBE7B500B98FF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BA662ADBE7B500B98FF0 /* SceneDelegate.swift */; };
-		4788BA692ADBE7B500B98FF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BA682ADBE7B500B98FF0 /* ViewController.swift */; };
-		4788BA6C2ADBE7B500B98FF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4788BA6A2ADBE7B500B98FF0 /* Main.storyboard */; };
-		4788BA6F2ADBE7B500B98FF0 /* Sofascore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4788BA6D2ADBE7B500B98FF0 /* Sofascore.xcdatamodeld */; };
 		4788BA712ADBE7B600B98FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4788BA702ADBE7B600B98FF0 /* Assets.xcassets */; };
 		4788BA742ADBE7B600B98FF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4788BA722ADBE7B600B98FF0 /* LaunchScreen.storyboard */; };
 		4788BA802ADBE7B600B98FF0 /* SofascoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BA7F2ADBE7B600B98FF0 /* SofascoreTests.swift */; };
 		4788BA8A2ADBE7B600B98FF0 /* SofascoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BA892ADBE7B600B98FF0 /* SofascoreUITests.swift */; };
 		4788BA8C2ADBE7B600B98FF0 /* SofascoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BA8B2ADBE7B600B98FF0 /* SofascoreUITestsLaunchTests.swift */; };
+		4788BAA12ADBEB7500B98FF0 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BAA02ADBEB7500B98FF0 /* Font.swift */; };
+		4788BAA32ADBEC3300B98FF0 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BAA22ADBEC3300B98FF0 /* Event.swift */; };
+		4788BAA62ADBFF2400B98FF0 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BAA52ADBFF2400B98FF0 /* EventListViewController.swift */; };
+		4788BAA82ADBFF3B00B98FF0 /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BAA72ADBFF3B00B98FF0 /* EventListViewModel.swift */; };
+		4788BAAA2ADC030200B98FF0 /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BAA92ADC030200B98FF0 /* EventDetailsViewController.swift */; };
+		4788BAAD2ADC035A00B98FF0 /* EventDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BAAC2ADC035A00B98FF0 /* EventDetailsViewModel.swift */; };
+		4788BAB02ADC038A00B98FF0 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BAAF2ADC038A00B98FF0 /* FavouritesViewController.swift */; };
+		4788BAB22ADC03A200B98FF0 /* FavouritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BAB12ADC03A200B98FF0 /* FavouritesViewModel.swift */; };
+		4788BAF72ADC08E400B98FF0 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BAF62ADC08E400B98FF0 /* NetworkError.swift */; };
+		4788BAFA2ADC0AC000B98FF0 /* EventsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BAF92ADC0AC000B98FF0 /* EventsStore.swift */; };
+		4788BAFD2ADC0B1100B98FF0 /* EventsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BAFC2ADC0B1100B98FF0 /* EventsService.swift */; };
+		4788BAFF2ADC0B2500B98FF0 /* EventsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788BAFE2ADC0B2500B98FF0 /* EventsRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +61,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		475F1AAB2ADC2FE0001DCF2F /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		475F1AAC2ADC2FE0001DCF2F /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		475F1AAF2ADC324D001DCF2F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		475F1AB12ADC333D001DCF2F /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		475F1ABE2ADC4C2C001DCF2F /* MulticastDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
+		475F1AC92ADC59DF001DCF2F /* event_details_response_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = event_details_response_1.json; sourceTree = "<group>"; };
+		475F1ACA2ADC59DF001DCF2F /* event_details_response_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = event_details_response_2.json; sourceTree = "<group>"; };
+		475F1ACD2ADC5F6C001DCF2F /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		475F1AD22ADC7B0B001DCF2F /* Tournament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tournament.swift; sourceTree = "<group>"; };
+		475F1AD72ADD4AB0001DCF2F /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		475F1ADD2ADDC6EB001DCF2F /* EventDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsView.swift; sourceTree = "<group>"; };
+		475F1B202ADEFB6A001DCF2F /* Sofascore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sofascore.xcdatamodel; sourceTree = "<group>"; };
+		475F1B282ADF0241001DCF2F /* EventId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventId.swift; sourceTree = "<group>"; };
+		475F1B2B2AE06740001DCF2F /* EventDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsResponse.swift; sourceTree = "<group>"; };
+		475F1B2E2AE067B2001DCF2F /* EventDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetails.swift; sourceTree = "<group>"; };
 		4788BA612ADBE7B500B98FF0 /* Sofascore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sofascore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4788BA642ADBE7B500B98FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4788BA662ADBE7B500B98FF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4788BA682ADBE7B500B98FF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4788BA6B2ADBE7B500B98FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4788BA6E2ADBE7B500B98FF0 /* Sofascore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sofascore.xcdatamodel; sourceTree = "<group>"; };
 		4788BA702ADBE7B600B98FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4788BA732ADBE7B600B98FF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4788BA752ADBE7B600B98FF0 /* Sofascore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sofascore.entitlements; sourceTree = "<group>"; };
@@ -52,6 +88,18 @@
 		4788BA852ADBE7B600B98FF0 /* SofascoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SofascoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4788BA892ADBE7B600B98FF0 /* SofascoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofascoreUITests.swift; sourceTree = "<group>"; };
 		4788BA8B2ADBE7B600B98FF0 /* SofascoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofascoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4788BAA02ADBEB7500B98FF0 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		4788BAA22ADBEC3300B98FF0 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		4788BAA52ADBFF2400B98FF0 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		4788BAA72ADBFF3B00B98FF0 /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
+		4788BAA92ADC030200B98FF0 /* EventDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
+		4788BAAC2ADC035A00B98FF0 /* EventDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsViewModel.swift; sourceTree = "<group>"; };
+		4788BAAF2ADC038A00B98FF0 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		4788BAB12ADC03A200B98FF0 /* FavouritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewModel.swift; sourceTree = "<group>"; };
+		4788BAF62ADC08E400B98FF0 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		4788BAF92ADC0AC000B98FF0 /* EventsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsStore.swift; sourceTree = "<group>"; };
+		4788BAFC2ADC0B1100B98FF0 /* EventsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsService.swift; sourceTree = "<group>"; };
+		4788BAFE2ADC0B2500B98FF0 /* EventsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +127,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		475F1AB32ADC37F4001DCF2F /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				4788BAFE2ADC0B2500B98FF0 /* EventsRepository.swift */,
+				4788BAFC2ADC0B1100B98FF0 /* EventsService.swift */,
+				4788BAF92ADC0AC000B98FF0 /* EventsStore.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		475F1AC02ADC4C59001DCF2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				475F1AC92ADC59DF001DCF2F /* event_details_response_1.json */,
+				475F1ACA2ADC59DF001DCF2F /* event_details_response_2.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		475F1ACF2ADC5F77001DCF2F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				475F1ACD2ADC5F6C001DCF2F /* MainTabBarViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		475F1AD62ADD4A94001DCF2F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				475F1AD72ADD4AB0001DCF2F /* EventTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		475F1B2A2AE0672B001DCF2F /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				475F1B2B2AE06740001DCF2F /* EventDetailsResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		475F1B2D2AE0677C001DCF2F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4788BAA22ADBEC3300B98FF0 /* Event.swift */,
+				475F1B282ADF0241001DCF2F /* EventId.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		4788BA582ADBE7B500B98FF0 = {
 			isa = PBXGroup;
 			children = (
@@ -102,15 +202,14 @@
 		4788BA632ADBE7B500B98FF0 /* Sofascore */ = {
 			isa = PBXGroup;
 			children = (
-				4788BA642ADBE7B500B98FF0 /* AppDelegate.swift */,
-				4788BA662ADBE7B500B98FF0 /* SceneDelegate.swift */,
-				4788BA682ADBE7B500B98FF0 /* ViewController.swift */,
-				4788BA6A2ADBE7B500B98FF0 /* Main.storyboard */,
+				4788BA9B2ADBEA7700B98FF0 /* Shared */,
+				4788BA982ADBE97D00B98FF0 /* Controllers */,
 				4788BA702ADBE7B600B98FF0 /* Assets.xcassets */,
 				4788BA722ADBE7B600B98FF0 /* LaunchScreen.storyboard */,
 				4788BA752ADBE7B600B98FF0 /* Sofascore.entitlements */,
 				4788BA762ADBE7B600B98FF0 /* Info.plist */,
-				4788BA6D2ADBE7B500B98FF0 /* Sofascore.xcdatamodeld */,
+				475F1B1F2ADEFB6A001DCF2F /* Sofascore.xcdatamodeld */,
+				475F1AC02ADC4C59001DCF2F /* Resources */,
 			);
 			path = Sofascore;
 			sourceTree = "<group>";
@@ -130,6 +229,107 @@
 				4788BA8B2ADBE7B600B98FF0 /* SofascoreUITestsLaunchTests.swift */,
 			);
 			path = SofascoreUITests;
+			sourceTree = "<group>";
+		};
+		4788BA982ADBE97D00B98FF0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				475F1ACF2ADC5F77001DCF2F /* Main */,
+				4788BAF82ADC0A2600B98FF0 /* Event List */,
+				4788BAAB2ADC031A00B98FF0 /* Event Details */,
+				4788BAAE2ADC037400B98FF0 /* Favourites */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4788BA992ADBE98500B98FF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				475F1B2A2AE0672B001DCF2F /* Responses */,
+				475F1B2D2AE0677C001DCF2F /* CoreData */,
+				475F1B2E2AE067B2001DCF2F /* EventDetails.swift */,
+				475F1AD22ADC7B0B001DCF2F /* Tournament.swift */,
+				475F1AAF2ADC324D001DCF2F /* Constants.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4788BA9A2ADBE9F900B98FF0 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				475F1AB32ADC37F4001DCF2F /* Events */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		4788BA9B2ADBEA7700B98FF0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4788BAF32ADC056D00B98FF0 /* Delegates */,
+				4788BA9F2ADBEB2B00B98FF0 /* Design System */,
+				4788BA992ADBE98500B98FF0 /* Models */,
+				4788BA9C2ADBEA9F00B98FF0 /* Networking */,
+				4788BA9A2ADBE9F900B98FF0 /* Stores */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4788BA9C2ADBEA9F00B98FF0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				475F1AB12ADC333D001DCF2F /* APIRequest.swift */,
+				475F1AAB2ADC2FE0001DCF2F /* NetworkClient.swift */,
+				475F1AAC2ADC2FE0001DCF2F /* NetworkRequest.swift */,
+				4788BAF62ADC08E400B98FF0 /* NetworkError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4788BA9F2ADBEB2B00B98FF0 /* Design System */ = {
+			isa = PBXGroup;
+			children = (
+				4788BAA02ADBEB7500B98FF0 /* Font.swift */,
+			);
+			path = "Design System";
+			sourceTree = "<group>";
+		};
+		4788BAAB2ADC031A00B98FF0 /* Event Details */ = {
+			isa = PBXGroup;
+			children = (
+				4788BAA92ADC030200B98FF0 /* EventDetailsViewController.swift */,
+				4788BAAC2ADC035A00B98FF0 /* EventDetailsViewModel.swift */,
+				475F1ADD2ADDC6EB001DCF2F /* EventDetailsView.swift */,
+			);
+			path = "Event Details";
+			sourceTree = "<group>";
+		};
+		4788BAAE2ADC037400B98FF0 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				4788BAAF2ADC038A00B98FF0 /* FavouritesViewController.swift */,
+				4788BAB12ADC03A200B98FF0 /* FavouritesViewModel.swift */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		4788BAF32ADC056D00B98FF0 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4788BA642ADBE7B500B98FF0 /* AppDelegate.swift */,
+				4788BA662ADBE7B500B98FF0 /* SceneDelegate.swift */,
+				475F1ABE2ADC4C2C001DCF2F /* MulticastDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		4788BAF82ADC0A2600B98FF0 /* Event List */ = {
+			isa = PBXGroup;
+			children = (
+				475F1AD62ADD4A94001DCF2F /* Cells */,
+				4788BAA52ADBFF2400B98FF0 /* EventListViewController.swift */,
+				4788BAA72ADBFF3B00B98FF0 /* EventListViewModel.swift */,
+			);
+			path = "Event List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +420,9 @@
 				Base,
 			);
 			mainGroup = 4788BA582ADBE7B500B98FF0;
+			packageReferences = (
+				4788BB002ADC0C7500B98FF0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 4788BA622ADBE7B500B98FF0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -238,7 +441,8 @@
 			files = (
 				4788BA742ADBE7B600B98FF0 /* LaunchScreen.storyboard in Resources */,
 				4788BA712ADBE7B600B98FF0 /* Assets.xcassets in Resources */,
-				4788BA6C2ADBE7B500B98FF0 /* Main.storyboard in Resources */,
+				475F1ACC2ADC59DF001DCF2F /* event_details_response_2.json in Resources */,
+				475F1ACB2ADC59DF001DCF2F /* event_details_response_1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +467,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4788BA692ADBE7B500B98FF0 /* ViewController.swift in Sources */,
+				475F1AD82ADD4AB0001DCF2F /* EventTableViewCell.swift in Sources */,
+				4788BAB02ADC038A00B98FF0 /* FavouritesViewController.swift in Sources */,
 				4788BA652ADBE7B500B98FF0 /* AppDelegate.swift in Sources */,
+				475F1B292ADF0241001DCF2F /* EventId.swift in Sources */,
+				4788BAFF2ADC0B2500B98FF0 /* EventsRepository.swift in Sources */,
+				475F1ADE2ADDC6EB001DCF2F /* EventDetailsView.swift in Sources */,
+				475F1ACE2ADC5F6C001DCF2F /* MainTabBarViewController.swift in Sources */,
+				4788BAA12ADBEB7500B98FF0 /* Font.swift in Sources */,
+				4788BAFD2ADC0B1100B98FF0 /* EventsService.swift in Sources */,
+				4788BAA82ADBFF3B00B98FF0 /* EventListViewModel.swift in Sources */,
+				475F1ABF2ADC4C2C001DCF2F /* MulticastDelegate.swift in Sources */,
+				475F1AB22ADC333D001DCF2F /* APIRequest.swift in Sources */,
+				475F1B2F2AE067B2001DCF2F /* EventDetails.swift in Sources */,
 				4788BA672ADBE7B500B98FF0 /* SceneDelegate.swift in Sources */,
-				4788BA6F2ADBE7B500B98FF0 /* Sofascore.xcdatamodeld in Sources */,
+				475F1AAD2ADC2FE0001DCF2F /* NetworkClient.swift in Sources */,
+				475F1AD32ADC7B0C001DCF2F /* Tournament.swift in Sources */,
+				4788BAAA2ADC030200B98FF0 /* EventDetailsViewController.swift in Sources */,
+				4788BAB22ADC03A200B98FF0 /* FavouritesViewModel.swift in Sources */,
+				4788BAA62ADBFF2400B98FF0 /* EventListViewController.swift in Sources */,
+				475F1B2C2AE06740001DCF2F /* EventDetailsResponse.swift in Sources */,
+				4788BAA32ADBEC3300B98FF0 /* Event.swift in Sources */,
+				4788BAFA2ADC0AC000B98FF0 /* EventsStore.swift in Sources */,
+				4788BAF72ADC08E400B98FF0 /* NetworkError.swift in Sources */,
+				4788BAAD2ADC035A00B98FF0 /* EventDetailsViewModel.swift in Sources */,
+				475F1AAE2ADC2FE0001DCF2F /* NetworkRequest.swift in Sources */,
+				475F1B212ADEFB6A001DCF2F /* Sofascore.xcdatamodeld in Sources */,
+				475F1AB02ADC324D001DCF2F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +530,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4788BA6A2ADBE7B500B98FF0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4788BA6B2ADBE7B500B98FF0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4788BA722ADBE7B600B98FF0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -453,9 +672,7 @@
 				INFOPLIST_FILE = Sofascore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,9 +698,7 @@
 				INFOPLIST_FILE = Sofascore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -610,13 +825,24 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		4788BB002ADC0C7500B98FF0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCVersionGroup section */
-		4788BA6D2ADBE7B500B98FF0 /* Sofascore.xcdatamodeld */ = {
+		475F1B1F2ADEFB6A001DCF2F /* Sofascore.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4788BA6E2ADBE7B500B98FF0 /* Sofascore.xcdatamodel */,
+				475F1B202ADEFB6A001DCF2F /* Sofascore.xcdatamodel */,
 			);
-			currentVersion = 4788BA6E2ADBE7B500B98FF0 /* Sofascore.xcdatamodel */;
+			currentVersion = 475F1B202ADEFB6A001DCF2F /* Sofascore.xcdatamodel */;
 			path = Sofascore.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
